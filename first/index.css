@@ -1,10 +1,35 @@
-body {
-    height: 100vh;
+.nav-rectangle {
+    height: 15vh;
     width: 100vw;
-    background-color: darkgrey;
+    background-color: black;
 }
 
-.nav-bar {
-    height: 20%;
-    width: vw;
+.left-column {
+    display: inline-block;
+    height: 85vh;
+    width: 15vw;
+    background-color: lightgrey;
+}
+
+.center-block {
+    display: inline-block;
+    height: 77vh;
+    width: 70vw;
+    background-color: white;
+}
+
+.right-column {
+    display: inline-block;
+    height: 85vh;
+    width: 15vw;
+    background-color: lightgray;
+}
+
+.footer {
+    display: flex;
+    float: both;
+    text-align: center;
+    height: 8vh;
+    width: 70vw;
+    background-color: black;
 }
