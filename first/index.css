@@ -6,7 +6,8 @@ body {
 .nav-rectangle {
     height: 15vh;
     width: 100vw;
-    background-color: black;
+    margin: 0 auto;
+    background-color: #454545;
 }
 
 .left-column {
@@ -14,16 +15,34 @@ body {
     float: both;
     height: 85vh;
     width: 15vw;
+    margin: 0 auto;
     background-color: lightgrey;
 }
 
 .center-block {
     display: inline-block;
     float: both;
-    vertical-align: top;
-    height: 75vh;
+    vertical-align: bottom;
+    height: 85vh;
     width: 69vw;
+    margin: 0 auto;
     background-color: white;
+}
+
+.center-rectangle {
+    vertical-align: top;
+    justify-content: center;
+    height: 77vh;
+    width: 70vw;
+}
+
+.bottom-rectangle {
+    vertical-align: bottom;
+    justify-content: center;
+    height: 8vh;
+    width: vw;
+    margin: 0px;
+    background-color: black;
 }
 
 .right-column {
@@ -32,14 +51,9 @@ body {
     float: right;
     height: 85vh;
     width: 15vw;
+    margin: 0 auto;
     background-color: lightgray;
 }
 
-.footer {
-    float: both;
-    height: 8vh;
-    width: 69vw;
-    background-color: black;
-}
 
 /* FOOTER, WHY WON'T YOU GO TO YOUR HOME? ARE YOU TOO GOOD FOR YOUR HOME??? Hahaha. */
